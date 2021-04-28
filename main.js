@@ -756,7 +756,7 @@ function DisplayCvdInfoComponent_option_60_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", state_r18, " ");
 } }
-function DisplayCvdInfoComponent_div_61_div_6_p_4_Template(rf, ctx) { if (rf & 1) {
+function DisplayCvdInfoComponent_div_61_div_6_p_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p", 66);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -765,7 +765,7 @@ function DisplayCvdInfoComponent_div_61_div_6_p_4_Template(rf, ctx) { if (rf & 1
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", ctx_r23.latestNwStateCase, " new cases.");
 } }
-function DisplayCvdInfoComponent_div_61_div_6_p_5_Template(rf, ctx) { if (rf & 1) {
+function DisplayCvdInfoComponent_div_61_div_6_p_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p", 66);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -774,7 +774,7 @@ function DisplayCvdInfoComponent_div_61_div_6_p_5_Template(rf, ctx) { if (rf & 1
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", ctx_r24.latestRcvdStateCase, " recoveries.");
 } }
-function DisplayCvdInfoComponent_div_61_div_6_p_6_Template(rf, ctx) { if (rf & 1) {
+function DisplayCvdInfoComponent_div_61_div_6_p_5_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p", 66);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
@@ -789,16 +789,15 @@ function DisplayCvdInfoComponent_div_61_div_6_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "label", 57);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "> ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, DisplayCvdInfoComponent_div_61_div_6_p_3_Template, 2, 1, "p", 65);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, DisplayCvdInfoComponent_div_61_div_6_p_4_Template, 2, 1, "p", 65);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, DisplayCvdInfoComponent_div_61_div_6_p_5_Template, 2, 1, "p", 65);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, DisplayCvdInfoComponent_div_61_div_6_p_6_Template, 3, 4, "p", 65);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, DisplayCvdInfoComponent_div_61_div_6_p_5_Template, 3, 4, "p", 65);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Reporting dated: ", ctx_r19.latestStateDatadate, "");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r19.latestNwStateCase !== "");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r19.latestRcvdStateCase !== "");
@@ -920,7 +919,7 @@ function DisplayCvdInfoComponent_div_61_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "label", 57);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, DisplayCvdInfoComponent_div_61_div_6_Template, 7, 4, "div", 58);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, DisplayCvdInfoComponent_div_61_div_6_Template, 6, 4, "div", 58);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 59);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "label");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9);
@@ -1416,10 +1415,12 @@ class DisplayCvdInfoComponent {
         if (this.lstOfNwStateVaccinations[this.lstOfNwStateVaccinations.length - 1] !== undefined) {
             this.latestStateDatanewVaccn = this.lstOfNwStateVaccinations[this.lstOfNwStateVaccinations.length - 1];
         }
-        // console.log(this.lstofSTateOrigdates);
-        // console.log('Date : ',date);
-        // console.log('Newly vaccinated peoples in state')
-        // console.log(this.latestStateDatanewVaccn)
+        console.log(this.lstofSTateOrigdates);
+        console.log('Date : ', date);
+        console.log('Newly vaccinated peoples in state');
+        console.log(this.latestStateDatanewVaccn);
+        console.log('New state cases :');
+        console.log(this.lstOfNwStateCases);
     }
     getMarqueeToggleOthers() {
         this.marqueeToggle = false;
@@ -1734,10 +1735,10 @@ class DisplayCvdInfoComponent {
         });
         // -- Getting world data for demonstrating world data and multiple chaining or error handling.
         this.ds.getWorldData().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["catchError"])(err => {
-            //  console.log('Throwing error', err);
+            console.log('Throwing error', err);
             return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["throwError"])(err);
         }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["catchError"])(err => {
-            // console.log('Throwing error again:', err);
+            console.log('Throwing error again:', err);
             return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["throwError"])(err);
         })).subscribe(result => {
             // console.log(result);
@@ -1794,8 +1795,8 @@ class DisplayCvdInfoComponent {
             return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["throwError"])(err);
         })).subscribe((result) => {
             this.completeIndianStateData = JSON.parse(result);
-            // console.log('Complete state data:')
-            // console.log(this.completeIndianStateData);
+            console.log('Complete state data:');
+            console.log(this.completeIndianStateData);
             for (const stateData of Object.keys(this.completeIndianStateData)) {
                 this.mapOfStateDtandCnfCases[stateData] = {};
                 this.mapOfStateDtandCnfCases[stateData][`dt`] = [];
