@@ -1397,10 +1397,10 @@ class DisplayCvdInfoComponent {
         // .slice((this.lstOfStateDates.length - this.numTotalcases), this.lstOfStateDates.length);
         this.lineChartOptionsStates.scales.xAxes[0].scaleLabel.labelString = 'Data of last ' + len + ' days';
         if (this.lstOfNwStateCases[this.lstOfNwStateCases.length - 1] !== undefined) {
-            this.latestNwStateCase = this.getNumberWithCommas(this.lstOfNwStateCases[this.lstOfNwStateCases.length - 1]);
+            this.latestNwStateCase = this.lstOfNwStateCases[this.lstOfNwStateCases.length - 1];
         }
         if (this.lstofNwStateRcvs[this.lstofNwStateRcvs.length - 1] !== undefined) {
-            this.latestRcvdStateCase = this.getNumberWithCommas(this.lstofNwStateRcvs[this.lstofNwStateRcvs.length - 1]);
+            this.latestRcvdStateCase = this.lstofNwStateRcvs[this.lstofNwStateRcvs.length - 1];
         }
         let date = '';
         if (this.lstofNwStateRcvs.length === this.lstofSTateOrigdates.length ||
@@ -1521,7 +1521,7 @@ class DisplayCvdInfoComponent {
         this.oldStateData = this.selectIS;
         this.stateDatalst = this.dictOfStateData[state];
         //this.refreshDists();
-        this.noOfVaccineAdmin = this.getNumberWithCommas(this.vaccineStateMap[this.selectIS]);
+        this.noOfVaccineAdmin = this.vaccineStateMap[this.selectIS];
         this.latestVaccineDate = this.vaccineStateMap[`State`];
         this.refreshDataStates();
         this.refreshDists();
@@ -1586,10 +1586,10 @@ class DisplayCvdInfoComponent {
         }
         this.lstMostActiveofObj = this.getMostOfSomeAttributeData(dstActiveCaseMap);
         this.lstMostRecoveredObj = this.getMostOfSomeAttributeData(dstRecoverCaseMap);
-        /* console.log('recoveries are :');
-         console.log(this.lstMostRecoveredObj);
-         console.log('Rec rate is :');
-         console.log(dstRecoveryRateMap); */
+        console.log('recoveries are :');
+        console.log(this.lstMostRecoveredObj);
+        console.log('Rec rate is :');
+        console.log(dstRecoveryRateMap);
         this.lstMostRecoveredObj = [];
         this.lstMostRecoveredObj = this.getMostOfSomeAttributeData(dstRecoveryRateMap);
     }
