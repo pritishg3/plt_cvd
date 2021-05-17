@@ -1316,6 +1316,7 @@ class DisplayCvdInfoComponent {
         this.datePipe = datePipe;
         this.newCases = [];
         this.onlyIndiaNwCases = [];
+        this.onlyIndDates = [];
         this.onlyIndiaRecovered = '';
         this.grNewCases = [];
         this.categoryOfGraph = 'nc';
@@ -1674,7 +1675,11 @@ class DisplayCvdInfoComponent {
         this.neSelectedCntry = cntryName;
         this.categoryOfGraph = 'nc';
         if (cntryName !== undefined) {
-            if (cntryName !== 'India') {
+            if (cntryName === 'India') {
+                this.newCases = this.onlyIndiaNwCases;
+                this.dates = this.onlyIndDates;
+            }
+            else {
                 this.newCases = this.dictOfWorldCntryDates[cntryName][`nw_cases`];
                 this.dates = this.dictOfWorldCntryDates[cntryName][`dt`];
             }
@@ -2055,6 +2060,7 @@ class DisplayCvdInfoComponent {
                         }
                     }
                     this.onlyIndiaNwCases = this.newCases;
+                    this.onlyIndDates = this.dates;
                     this.onlyIndiaRecovered = this.completeCVDData[i][this.completeCVDData[i].length - 1][`dailyrecovered`];
                     if (Number(this.onlyIndiaRecovered) === 0) {
                         this.onlyIndiaRecovered = '';
